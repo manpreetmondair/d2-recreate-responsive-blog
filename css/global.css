@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+img{
+    width: 100%;
+}
+
+header {
+    text-align: center;
+    color: white;
+    background-color: #045AFF;
+    padding: 15vw 0;
+}
+
+header figure {
+    width: 200px;
+    height: 200px;
+    background: url(../img/flower.jpg);
+    background-size: cover;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.row{
+    display: flex;
+     }
+.lefticon{
+       flex: 1;
+       text-align: left;
+       letter-spacing: 2px;
+       
+      
+      
+}
+.righticon{
+       flex: 1;
+       text-align: right;
+}
+header button{
+   background-color: #045AFF;
+   color: white;
+   }
+ i{
+     margin-left: 10px;
+ }
+.container{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    flex: 1;
+    padding: 20px;
+    }
+main{
+    flex: 1;
+    padding: 30px;
+    }
+.aboutme{
+    color: rgba(0, 0, 0, .5);
+    padding: 10px;
+}
+.pairshape{
+    color: rgba(0, 0, 0, .5);
+    padding: 10px;
+
+}
+.suzuki{
+    color: rgba(0, 0, 0, .5);
+    padding: 10px;
+    }
+.part1{
+        color:blue;
+    }
+
+
+/* Tablet */
+@media screen and (min-width: 767px) {
+    .container{
+        flex-direction: row;
+    }
+}
+
+ /*Desktop */
+@media screen and (min-width: 991px) {
+    .main1 {
+        display: flex;
+    }
+    .part1 {
+        flex: 4;
+    }
+    .part2 {
+        flex: 8;
+    }
+}
+
+   
+
+         
